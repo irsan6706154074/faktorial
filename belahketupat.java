@@ -9,7 +9,7 @@ class belahketupat {
 
     for (int i = 1; i < n; i += 2) {
       for (int j = 0; j < 4 - i / 2; j++)
-        System.out.print(" ");
+        System.out.print("0");
 
       for (int j = 0; j < i; j++)
         System.out.print("*");
@@ -18,7 +18,7 @@ class belahketupat {
 
     for (int i = n; i > 0; i -= 2) {
       for (int j = 0; j < 4 - i / 2; j++)
-        System.out.print(" ");
+        System.out.print("0");
 
       for (int j = 0; j < i; j++)
         System.out.print("*");
